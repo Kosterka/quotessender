@@ -1,5 +1,8 @@
+from quote import Quote
+
+
 def main():
-    print ('Live your beliefs and you can turn the world around')
+    print(Quote().get())
 
 if __name__ == '__main__':
     main()
